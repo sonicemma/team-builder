@@ -48,7 +48,8 @@ const Form = props => {
                 type="text"
                 onChange={handleChanges}
                 value={form.role}
-            >
+            >   
+                <option value="Pick a role">Pick a role</option>
                 <option value="Frontend">Frontend</option>
                 <option value="Backend">Backend</option>
                 <option value="UX">UX</option>
